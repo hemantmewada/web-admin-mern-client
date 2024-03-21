@@ -1,4 +1,5 @@
 import Analytics from "../components/Analytics";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,12 +17,12 @@ const Home = () => {
                 tailored to meet your unique needs.
               </p>
               <div className="btn btn-group">
-                <a href="/contact-us">
+                <Link to="/contact-us">
                   <button className="btn">connect now</button>
-                </a>
-                <a href="/services">
+                </Link>
+                <Link to="/services">
                   <button className="btn secondary-btn">learn more</button>
-                </a>
+                </Link>
               </div>
             </div>
 
